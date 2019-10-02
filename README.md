@@ -42,3 +42,6 @@ const treeMaker = (soil, tree, renderer) => {
 My advice is to start by sketching out the object described in the first test as a `red box` in the file `1909-Flex/fundamentals/trees/test/trees.test.js`. You should be sketching this out in `ourTree` as a JS object.
 
 Once you have the `redBox`, it is time to start working on the `treeMaker` function, that should be able to render that `redBox` to the DOM. Do not use the actual HTML file! That will immediately fail the test.
+
+### Viewing
+You can view the DOM you've built by opening your `index.html` file in your browser.

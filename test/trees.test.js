@@ -181,4 +181,12 @@ describe('the website should render correctly', () => {
       })
     )
   });
+
+  xdescribe('Bonus', () => {
+    test('Each node created by our tree comes with an extra node, findDepth', () => {
+      const span = document.querySelector('span');
+
+      expect(span.findDepth()).toEqual(5);
+    });
+  })
 });
